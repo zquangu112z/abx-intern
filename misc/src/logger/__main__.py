@@ -3,6 +3,9 @@ import logging
 # Create a custom logger
 logger = logging.getLogger(__name__)
 
+# import os
+# defaultLevel = logging.getLevelName(os.environ.get('LOG_LEVEL', 'INFO'))
+# logger.setLevel(defaultLevel)
 logger.setLevel(logging.INFO)
 
 # Create handlers
@@ -23,6 +26,7 @@ logger.addHandler(c_handler)
 logger.addHandler(f_handler)
 
 logger.warning('This is a warning')
+logger.warning(type(logging.WARNING))
 logger.error('This is an error')
 logger.info('This is an info')
 logger.debug('This is a debug')
