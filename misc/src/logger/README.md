@@ -16,8 +16,8 @@ if loglevel >= self.level:
         handler(loglevel, message)
 ```
 
-And in each handler:
+handler()
 ```
-if loglevel >= self.level:
+if loglevel >= handler.level:
     # do something
 ```

@@ -1,0 +1,9 @@
+'ICD','CCS','CCS DESC','ICD DESC'
+'A150',1,Adaptive,Tuberculosis of lung
+'A154',1,Adaptive,Tuberculosis of intrathoracic lymph nodes
+'A155',2,Honest,"Tuberculosis of larynx, trachea and bronchus"
+'A156',2,Honest,Tuberculous pleurisy
+'A157',3,Loyal,Primary respiratory tuberculosis
+'A158',3,Loyal,Other respiratory tuberculosis
+'A159',4,Active,Respiratory tuberculosis unspecified
+'A170',4,Active,Tuberculous meningitis
